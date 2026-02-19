@@ -1,0 +1,8 @@
+# requirements.txt
+# Dependencies for buggy-test-repo
+# NOTE: 'yaml' (PyYAML) is intentionally missing to trigger IMPORT bug in loader.py
+
+pytest==7.4.0
+flake8==6.1.0
+pytest-cov==4.1.0
+requests==2.31.0
